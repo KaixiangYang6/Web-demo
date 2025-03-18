@@ -1,11 +1,16 @@
 {
   "name": "web_demo",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kai",
   "license": "ISC",
-  "description": ""
+  "description": "基于 Socket.IO 的实时聊天应用",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
 }
